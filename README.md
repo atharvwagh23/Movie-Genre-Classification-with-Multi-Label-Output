@@ -6,7 +6,10 @@ Predicting **all applicable genres** for a movie using only its plot summary tex
 
 Real movies usually belong to **multiple genres at once** (e.g. a movie can be Action, Sci-Fi, and Thriller together). This project builds a **multi-label classification model** that predicts a *set* of genres given only a plot summary, using TF-IDF features and a One-vs-Rest Logistic Regression classifier.
 
-## Movie Genre Classification with Multi-Label Output/
+## 🗂️ Project Structure
+
+```
+Movie Genre Classification with Multi-Label Output/
 │
 ├── Data/
 │   ├── movie_metadata.tsv     # Movie details incl. genre tags (id, title, release date, revenue, runtime, languages, countries, genre dict)
@@ -14,6 +17,8 @@ Real movies usually belong to **multiple genres at once** (e.g. a movie can be A
 │
 ├── Movie_Genre_Classifier_with_Multi_label_Output.ipynb   # Main notebook
 └── README.md
+```
+
 *(Note: exact source/provenance of this dataset is unconfirmed — update this section if you know where it originally came from.)*
 
 ## 🔍 Approach
