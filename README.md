@@ -1,6 +1,6 @@
 # Movie Genre Classification with Multi-label Output
 
-Predicting **all applicable genres** for a movie using only its plot summary text — a multi-label text classification project, unlike traditional single-genre classifiers.
+Predicting **all applicable genres** for a movie using only its plot summary text — a multi-label text classification project.
 
 ## 📌 Overview
 
@@ -18,9 +18,6 @@ Movie Genre Classification with Multi-Label Output/
 ├── Movie_Genre_Classifier_with_Multi_label_Output.ipynb   # Main notebook
 └── README.md
 ```
-
-*(Note: exact source/provenance of this dataset is unconfirmed — update this section if you know where it originally came from.)*
-
 ## 🔍 Approach
 
 1. **Load & Merge** — loaded `movie_metadata.tsv` and `plot_summaries.tsv` separately, then merged them on `movie_id` since genre info and plot text live in different files.
@@ -72,7 +69,7 @@ Movie Genre Classification with Multi-Label Output/
 ```bash
    jupyter notebook Movie_Genre_Classifier_with_Multi_label_Output.ipynb
 ```
-   Or upload it to [Google Colab](https://colab.research.google.com) and upload `movie_metadata.tsv` / `plot_summaries.tsv` from the `Data/` folder when prompted.
+   Or upload it to [Google Colab](https://colab.research.google.com) and upload `movie_metadata.tsv` / `plot_summaries.tsv` from the `Data/` folder.
 
 4. The notebook will output:
    - Genre frequency visualization (top 50 genres)
