@@ -85,13 +85,6 @@ Movie Genre Classification with Multi-Label Output/
 - `plot_summaries.tsv` — 42,306 rows, tab-separated, no header row. Columns: `movie_id`, `plot summary text`
 - After merging + cleaning: **41,793** usable movie records, spanning **363 unique genre tags**
 
-## 📈 Future Improvements
-
-- Filter to the top ~20-30 most frequent genres instead of all 363, to reduce label sparsity and likely improve F1 score
-- Try other multi-label-friendly models (Random Forest, XGBoost, or neural approaches)
-- Use word embeddings (Word2Vec, GloVe) or transformer-based models (BERT) for richer text representation
-- Address genre imbalance with per-label class weighting
-
 ## 📄 License
 
 This project is for educational purposes.
